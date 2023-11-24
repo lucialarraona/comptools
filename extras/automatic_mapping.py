@@ -159,7 +159,7 @@ actual_true_labels, predicted_clusters_kmeans, predicted_clusters_spectral = shu
     random_state=42
 )
 
-# Assuming `actual_true_labels` contains your true class labels
+
 unique_categories = np.unique(actual_true_labels)
 
 # Evaluate mappings for K-Means
